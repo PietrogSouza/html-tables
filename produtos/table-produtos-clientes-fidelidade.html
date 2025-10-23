@@ -6,6 +6,115 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <h1>Tabelas com CSS</h1>
+
+    <h2>01: Lista de Produtos</h2>
+    <table>
+        <!-- Título para a Tabela -->
+        <caption> Lista de Produtos</caption>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Preço</th>
+                <th>Categoria</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Mouse Gamer</td>
+                <td>R$ 89,90</td>
+                <td>Eletrônicos</td>
+            </tr>
+
+            <tr>
+                <td>Teclado Gamer</td>
+                <td>R$ 189,90</td>
+                <td>Eletrônicos</td>
+            </tr>
+
+            <tr>
+                <td>Fone de Ouvido Gamer</td>
+                <td>R$ 129,90</td>
+                <td>Eletrônicos</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>Dados Extraídos em 23/10/20025</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <h2>Tabela de Clientes</h2>
+    <table>
+        <caption>Cadastro de Clientes</caption>
+        <thead>
+        <tr>
+            <th colspan="4">CLIENTES</th>
+        </tr>
+
+        <tr>
+            <th colspan="2">Código</th>
+            <th colspan="2">Nome</th>
+            <th colspan="2">Documentos</th>
+        </tr>
+
+        <tr>
+            <th>RG</th>
+            <th>CPF</th>
+        </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>001</td>
+                <td>Lucas de Souza</td>
+                <td>00.000.000-00</td>
+                <td>000.000.000-00</td>
+            </tr>
+
+            <tr>
+                <td>002</td>
+                <td>Lucas da Silva</td>
+                <td>00.000.000-00</td>
+                <td>000.000.000-00</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>03: Tabela de Fidelidade</h2>
+    <table>
+        <caption>Clientes</caption>
+        <thead>
+            <tr>
+                <th colspan="4">Sorvetes</th>
+            </tr>
+
+            <tr>
+                <th rowspan="2">Código</th>
+                <th rowspan="2">Sabor</th>
+                <th rowspan="2">Cliente</th>
+                <th colspan="2">Tipo</th>
+            </tr>
+
+            <tr>
+                <th>Picolê</th>
+                <th>Massa</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>001</td>
+                <td>Chocolate</td>
+                <td>Maria</td>
+                <td>SIM</td>
+                <td>NÃO</td>
+            </tr>
+        </tbody>
+    </table>
+
 </body>
 </html>

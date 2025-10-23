@@ -1,0 +1,14 @@
+{
+  "name": "html-tables",
+  "version": "1.0.0",
+  "description": "Estudo sobre a tag table",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tabelas"
+  ],
+  "author": "Pietro",
+  "license": "ISC"
+}

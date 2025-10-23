@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table{
+    border: 2px solid black;
+    background: #ffb7b7;
+    margin: 25px auto;
+}
+
+th{
+    color: red;
+    background-color: black;
+}
+
+td{
+    border: 2px solid black;
+    width: 200px;
+    text-align: center;
+}

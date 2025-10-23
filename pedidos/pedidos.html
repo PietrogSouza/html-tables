@@ -1,11 +1,92 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./pedidos.css">
+    <title>Tabelas Formatadas com CSS</title>
 </head>
+
 <body>
-    
+    <h1>Tabelas Formatadas com CSS</h1>
+
+    <h2>Tabela 1: Produtos</h2>
+
+    <!-- Início da Tabela -->
+    <table class="tabela-1">
+
+        <!-- Cabeçalho da Tabela -->
+        <thead>
+            <!-- Linha do Cabeçalho da Tabela -->
+             <tr>
+                <!-- Conteúdo (Célula) do Cabeçalho -->
+                 <th>Imagem</th>
+                 <th>Nome do Produto</th>
+                 <th>Preço</th>
+                 <th>Comprar</th>
+             </tr>
+        </thead>
+
+        <!-- Corpo da Tabela -->
+        <tbody>
+            <!-- Linha do Corpo da Tabela -->
+            <tr>
+                <td><img src="/img/mouse-gamer.jpg" width="100" alt="Mouse gamer preto"/></td>
+                <td>Mouse Gamer</td>
+                <td>R$ 89,90</td>
+                <td><button>Comprar</button></td>
+            </tr>
+
+            <tr>
+                <td><img src="/img/teclado-gamer.jpg" width="100" alt="Teclado gamer preto mecanico"></td>
+                <td>Teclado Gamer</td>
+                <td>R$ 189,90</td>
+                <td><button>Comprar</button></td>
+            </tr>
+
+            <tr>
+                <td><img src="/img/fone-de-ouvido.jpg" width="100" alt="Fone de ouvido gamer branco"></td>
+                <td>Fone de Ouvido Gamer</td>
+                <td>R$ 129,90</td>
+                <td><button>Comprar</button></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Tabela 2: Histórico de Pedidos</h2>
+
+    <table class="tabela-2">
+        <thead>
+            <tr>
+                <th>Número do Pedido</th>
+                <th>Data</th>
+                <th>Valor Total</th>
+                <th>Status</th>
+            </tr>
+
+            <tr>
+                <td>12345</td>
+                <td>2025-08-12</td>
+                <td>R$ 89,90</td>
+                <td>Entregue</td>
+            </tr>
+
+            <tr>
+                <td>54321</td>
+                <td>2025-10-7</td>
+                <td>R$ 189,90</td>
+                <td>Em Processamento</td>
+            </tr>
+
+            <tr>
+                <td>21354</td>
+                <td>2025-10-23</td>
+                <td>R$ 129,90</td>
+                <td>Aguardando Pagamento</td>
+            </tr>
+        </thead>
+    </table>
 </body>
+
 </html>
